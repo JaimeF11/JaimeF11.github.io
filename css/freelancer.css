@@ -133,7 +133,7 @@ section h2 {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 692px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -182,7 +182,7 @@ header.masthead h2 {
   font-family: 'Lato';
 }
 
-@media (min-width: 992px) {
+@media (min-width: 692px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
