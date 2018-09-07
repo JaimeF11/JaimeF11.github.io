@@ -1,0 +1,977 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+ }
+ 
+html{
+	height:100%;
+	overflow-x:hidden;
+}
+
+body {  
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	min-height: 100%;
+	margin:0;
+	line-height: inherit !important;
+
+	overflow: hidden;
+
+}
+
+table{
+	border-collapse:collapse; 
+	border-spacing:0;
+}
+a { outline:none;
+	text-decoration:none; }
+a:focus, a:active
+{
+	text-decoration: none;
+}
+img{ border: 0; }
+
+.clearer { clear:both; }
+
+#cabeceraSuperior  
+{
+	width: 100%;
+	height: 66px;
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 60;
+}
+#cabeceraSuperior  #listaMenusCabecera
+{
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+#cabeceraSuperior .apartadosCabeceraSuperior
+{
+	list-style: none;
+	display: block;
+
+}
+#subcabecera #listaSubMenusCabecera
+{
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+#subcabecera li
+{
+	list-style: none;
+	display: block;
+
+}
+#cabeceraSuperior  #cabeceraIzquierda
+{
+	display: block;
+	position: relative;
+	padding-left: 20px;
+	padding-top: 14px;
+	float: left;
+	padding-bottom: 10px;
+	cursor: pointer;
+	padding-right: 20px;
+}
+#cabeceraSuperior  #cabeceraIzquierda:hover
+{
+	background:  rgba(0,0,0,0.16);
+
+}
+#cabeceraSuperior  #cabeceraIzquierda h1,#cabeceraSuperior  #cabeceraIzquierda img
+{
+	float: left;
+	display: block;
+}
+#cabeceraSuperior  #cabeceraIzquierda h1
+{
+	font-size: 29px;
+	line-height: 29px;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-left: 10px;
+	position: relative;
+}
+#cabeceraSuperior  #cabeceraIzquierda h1 b
+{
+	font-weight: 700;
+}
+#cabeceraSuperior  #cabeceraIzquierda img
+{
+	position: relative;
+	top: 4px;
+	left: 0px;
+}
+#cabeceraSuperior  #cabeceraIzquierda h1 span
+{
+	font-size: 8px;
+	font-weight: bold;
+	position: absolute;
+	right: 0px;
+	bottom: -12px;
+	line-height: 9px;
+}
+#cabeceraSuperior  #cabeceraIzquierda #flechaMenuIzquierda
+{
+	position: relative;
+	margin-left: 8px;
+	padding: 8px;
+	cursor: pointer;
+	left: 0px;
+	top: 4px;
+	max-width: 100%;
+	box-sizing:content-box;
+	-webkit-box-sizing: content-box;
+}
+
+.wrapperCabeceraFlotado
+{
+	float: right;
+	list-style: none;
+	height: 100%;
+	position: relative;
+}
+.wrapperCabeceraFlotado ul
+{
+	height: 100%;
+	position: relative;
+}
+.wrapperCabeceraFlotado ul li .enlaceMenuAccesible
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	box-sizing:border-box;
+}
+#cabeceraIzquierda .enlaceMenuAccesible 
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#listaSubMenusCabecera a:focus,#cabeceraSuperior a:focus
+{
+	 background-color: rgba(0, 0, 0, 0.08);
+	 color: #FFFFFF;
+}
+.open > .dropdown-menu {
+    display: block !important;
+}
+#listaSubMenusCabecera .enlaceMenuAccesible
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	box-sizing:border-box;	
+}
+#cabeceraSuperior  #alertas
+{
+	height: 100%;
+	width: 66px;
+	display: block;
+	float: left;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+#cabeceraSuperior  #alertas:hover img,#cabeceraSuperior  #alertas:hover .numeroAlertas
+{
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+.numeroAlertas
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -23px;
+	margin-left: -23px;
+	padding-top: 4px;
+	display: block;
+	height: 22px;
+	width: 22px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 14px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	background: #f46767;
+	color: #FFFFFF;
+}
+#cabeceraSuperior  #alertas img
+{
+	position: relative;
+	margin-top: 22px;
+}
+#usuario , #ayudaCabecera 
+{
+	float: left;
+	border-left: 1px solid #337599;
+	height: 100%;
+	position: relative;
+}
+#usuario a , #ayudaCabecera a
+{
+	padding-right: 15px;
+	padding-left:15px;
+}
+#usuario #retrato
+{
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: relative;
+	top: 4px;
+	left: 0px;
+
+}
+#usuario
+{
+	font-size: 16px;
+	line-height: 16px;
+	cursor: pointer;
+	background-color:#005380;
+}
+#usuario a
+{
+	padding-left: 29px;
+}
+#usuario.botonActivo:hover
+{
+	background: none;
+}
+#cabeceraSuperior  #usuario #flechaUsuario
+{
+	position: relative;
+	margin-left: 0px;
+	padding: 8px;
+	cursor: pointer;
+	left: 0px;
+	top: 16px;
+	box-sizing:content-box;
+	-webkit-box-sizing: content-box;
+}
+#cabeceraSuperior  #usuario #flechaUsuario:hover
+{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+#usuario #nombre
+{
+	margin-left: 9px;
+	margin-right: 11px;
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 23px;
+	display: inline-block;
+	vertical-align: top;
+	color: #FFFFFF;
+}
+#ayudaCabecera img
+{
+	position: relative;
+	margin-top: 14px;
+	cursor: pointer;
+	padding: 8px;
+	padding-right: 14px;
+	padding-left:14px;
+	box-sizing:content-box;
+	-webkit-box-sizing: content-box;
+}
+#ventanaAplicaciones
+{
+	position: absolute;
+	padding-top: 66px;
+	top: 0px;
+	left: 45px;
+}
+#ventanaWrapperApps
+{
+	width: 343px;
+	height: 372px;
+	background: #FFFFFF;
+	position: relative;
+	-webkit-box-shadow: 4px 6px 8px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    4px 6px 8px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         4px 6px 8px 0px rgba(50, 50, 50, 0.45);
+}
+#ventanaWrapperApps .picoVentana
+{
+	position: absolute;
+	top: -9px;
+	left: 148px;
+	z-index: 3;
+}
+#ventanaWrapperApps 
+{
+	padding-top: 29px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 14px;
+	box-sizing:border-box;
+	z-index: 50;
+}
+.wrapperAplicacionesPopup
+{
+	display: block;
+	clear: both;
+	padding-top: 16px;
+	height: 280px;
+	width: 100%;
+	overflow:auto;
+	outline:none;
+}
+.wrapperAplicacionesPopup .cont
+{
+	position:relative;
+}
+.wrapperAplicacionesPopup .jspDrag
+{
+	background: #8c8c8c;
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;	
+}
+.wrapperAplicacionesPopup .jspTrack {
+    background: none repeat scroll 0 0 #d7d7d7;
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.wrapperAplicacionesPopup .jspVerticalBar {
+    background: #FFFFFF;
+}
+.wrapperAplicacionesPopup ul 
+{
+	list-style: none;
+}
+.wrapperAplicacionesPopup ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 51px;
+	margin-left: 12px;
+	margin-right: 12px;
+	height: 98px;
+	text-align: center;
+	line-height: 12px;
+	position: relative;
+}
+.wrapperAplicacionesPopup ul li a
+{
+	font-size: 12px;
+	font-family: "Lato", sans-serif;
+	color: #858585;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.wrapperAplicacionesPopup ul li .appFavorita
+{
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	z-index: 5;
+	cursor: pointer;
+	width: 19px;
+	height: 19px;
+	background: url('../images/layout/no-favorito.html') no-repeat center;
+}
+.wrapperAplicacionesPopup ul li .appFavorita.seleccionada
+{
+	background: url('../images/layout/favorito.html') no-repeat center;
+}
+.wrapperAplicacionesPopup ul li a:hover
+{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	text-decoration: none;
+}
+.wrapperAplicacionesPopup ul li img
+{
+	position: relative;
+	margin-bottom: 9px;
+}
+#ventanaWrapperApps .btn-group
+{
+	margin-top: 0px;
+	margin-left: 13px;
+}
+#ventanaWrapperApps .btn-group
+{
+	padding-bottom: 10px;
+}
+#menuUsuario
+{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+	background: none;
+	padding-top: 0px;
+	margin-top: 0px;
+	border:0px;
+
+}
+#menuUsuario ul
+{
+	background-color:#005380;	
+}
+#menuUsuario .list-group-item
+{
+	padding: 0px;
+	background: none;
+	border:0px;
+	margin-bottom: 0px;
+	border-top: 1px solid rgba(255,255,255,0.12);
+}
+#menuUsuario .list-group
+{
+	margin-bottom: 0px;
+}
+#menuUsuario .list-group-item a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: none;
+	padding: 17px 15px;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.16);
+	color: #ffffff;
+
+}
+#menuUsuario .list-group-item a:hover
+{
+	background-color:rgba(0,0,0,0.26);
+	text-decoration: none;
+
+}
+#menuUsuario #superiorMenuUsuario
+{
+	width: 100%;
+	height: 66px;
+	display: block;
+	background-color:rgba(0,0,0,0.16);
+}
+
+#menuUsuario .iconoMenu
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#centroNotificaciones
+{
+	background: #FFFFFF;
+	position: fixed;
+	top: 0px;
+	right: -403px;
+	width: 403px;
+	height: 100%;
+	z-index: 100;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+#centroNotificaciones #tituloCentroNotificaciones
+{
+	font-size: 24px;
+	line-height: 20px;
+	color: #000000;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	display: block;
+	padding-left: 10px;
+}
+#centroNotificaciones .panel
+{
+	border:0px;
+}
+#centroNotificaciones .panel-heading
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 16px;
+}
+#centroNotificaciones .panel.verde .panel-heading
+{
+	background: #028078;
+}
+#centroNotificaciones .panel.rosa .panel-heading
+{
+	background: #c23e63;
+}
+#centroNotificaciones .panel.azul .panel-heading
+{
+	background: #01aee6;
+}
+
+#centroNotificaciones .panel-heading
+{
+	padding: 0px;
+
+    -webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+#centroNotificaciones .panel-heading a {
+    padding: 5px 15px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing:border-box;
+    outline: none;
+    text-decoration: none;
+    background: url('../images/layout/abrirAcordeonNotificacion.html') right 22px  center no-repeat;
+}
+#centroNotificaciones .panel-heading a.acordeonActivo {
+    background: url('../images/layout/cerrarAcordeonNotificacion.html') right 22px  center no-repeat;
+}
+#centroNotificaciones .panel-heading a:hover
+{
+	text-decoration: none;
+}
+#centroNotificaciones .panel-heading a img
+{
+	margin-right: 7px;
+	position: relative;
+}
+#centroNotificaciones .panel-body,#centroNotificaciones .panel-body li
+{
+	  padding: 0px;
+	  border:0px;
+}
+#centroNotificaciones .panel-body li
+{
+	box-sizing:content-box;
+	-webkit-box-sizing: content-box;
+	border-top:1px solid #FFFFFF;
+	  display: block;
+}
+#centroNotificaciones .panel-body a
+{
+	  display: block;
+	  text-decoration: none;
+	  background: #f3f3f3;
+	  border:0px;
+	  padding-left: 16px;
+	  padding-right: 85px;
+	  padding-top: 6px;
+	  padding-bottom: 6px;
+	  font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #666666;
+}
+#centroNotificaciones .panel .panel-body a .borde
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 6px;
+	background: #bfbfbf;
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+}
+#centroNotificaciones .panel .panel-body a.leido 
+{
+	font-weight: normal;
+}
+#centroNotificaciones .panel .panel-body a.leido .borde
+{
+	background: #bfbfbf !important;
+}
+#centroNotificaciones .panel-body a:hover , #centroNotificaciones .panel.personas .panel-body a:hover .fechaNotificacion
+{
+	background: #FFFFFF;
+}
+#centroNotificaciones .panel .panel-body  a:hover .nombrePersona {
+    background-color: #f3f3f3;
+}
+#centroNotificaciones .panel.verde .panel-body a .borde
+{
+	background: #028078;
+}
+#centroNotificaciones .panel.rosa .panel-body a .borde
+{
+	background: #c23e63;
+}
+
+#centroNotificaciones .panel .panel-body a .fechaNotificacion
+{
+	position: absolute;
+	top: 8px;
+	right: 0px;
+	height: 100%;
+	width:85px;
+	display: block;
+	font-weight: normal;
+	text-align: right;
+	box-sizing:border-box;
+	padding-right: 10px;
+}
+#centroNotificaciones .panel.personas .panel-body a .fechaNotificacion
+{
+	position: absolute;
+	line-height: 22px;
+	top: 5px;
+	right: 0px;
+	padding-right: 0px;
+	background: #f3f3f3;
+	top: 0px;
+	height: auto;
+}
+#centroNotificaciones .panel.rosa .panel-heading
+{
+	border-left: 6px solid #c23e63;
+}
+#centroNotificaciones .panel.azul .panel-heading
+{
+	border-left: 6px solid #01aee6;
+}
+#centroNotificaciones .panel .panel-body .list-group
+{
+	margin-bottom: 0px;
+}
+#centroNotificaciones .panel
+{
+	margin-bottom: 20px;
+}
+#centroNotificaciones .panel .panel-body a:hover .borde span
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(255,255,255,0.4);
+	z-index: 2;
+
+}
+#centroNotificaciones .panel.verde .panel-body a .fechaNotificacion
+{
+	color: #22aba2;
+}
+#centroNotificaciones .panel.rosa .panel-body a .fechaNotificacion
+{
+	color: #c23e63;
+}
+#centroNotificaciones .panel.verde .panel-body a:hover
+{
+	color: #22aba2;
+}
+#centroNotificaciones .panel.rosa .panel-body a:hover
+{
+	color: #c23e63;
+}
+#centroNotificaciones .panel .panel-body .nombrePersona
+{
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 26px;
+	box-sizing:border-box;
+	height: 22px;
+	line-height: 22px;
+    background: url('../images/layout/iconoPersonas.html') left 6px center  no-repeat;
+	background-color: #dfdfdf;
+	font-weight: normal;
+
+	margin-bottom: 7px;
+}
+
+#centroNotificaciones .panel.personas .panel-body li a
+{
+	padding-right: 10px;
+
+}
+#cerrarNotificaciones
+{
+	position: absolute;
+	top: 18px;
+	right: 16px;
+	cursor: pointer;
+}
+#cerrarNotificaciones:hover
+{
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}
+.overlay
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.4);
+	cursor: pointer;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	z-index: 20;
+	display: none;
+}
+#wrapperSubcabeceras
+{
+	position: fixed;
+	top: 66px;
+	left: 0px;
+	width: 100%;
+
+}
+#subcabecera
+{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 100%;
+	display: block;
+	padding-left: 200px;
+}
+#cabeceraTercera
+{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 100%;
+	min-height: 50px;
+	background: #009688;
+	display: block;
+	position: relative;
+}
+#cabeceraTercera .aclara
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.75);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#cabeceraTercera .contenido
+{
+	text-align: center;
+	color: #004b44; /* Este rgb se saca del rgb oficial de la aplicación, multiplicando cada componente por 0.5 */
+	z-index: 2;
+	position: relative;
+	display: block;
+	line-height: 50px;
+
+}
+#subcabecera.rosa
+{
+	background: #f583a4;
+}
+#subcabecera.verde
+{
+	background: #009688;
+}
+#subcabecera #nombreSeccionCabecera
+{
+	line-height: 66px;
+	height: 100%;
+	display: block;
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: 300;
+	padding-left: 20px;
+	float: left;
+	padding-right: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 210px;
+}
+#subcabecera #nombreSeccionCabecera img
+{
+	margin-right: 10px;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	position: relative;
+	top: -3px;
+	left: 0px;
+}
+#subcabecera .menuSubcabecera
+{
+	width: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	box-shadow: none;
+	 border: none;
+
+}
+#subcabecera .menuSubcabecera ul
+{
+	background-color:#009688;	
+	min-width: 154px;
+	width: 100%;
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	height: auto;
+}
+.menuSubcabecera .list-group-item
+{
+	padding: 0px;
+	background: none;
+	border:0px;
+	margin-bottom: 0px;
+	border-top: 1px solid rgba(255,255,255,0.12);
+}
+.menuSubcabecera .list-group
+{
+	margin-bottom: 0px;
+}
+.menuSubcabecera .list-group-item a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: none;
+	padding: 17px 15px;
+	box-sizing:border-box;
+	color: #ffffff;
+	background-color:rgba(0,0,0,0.08);
+
+}
+.menuSubcabecera .list-group-item a:hover
+{
+	background-color:rgba(0,0,0,0.16);
+	text-decoration: none;
+
+}
+.menuSubcabecera .superiormenuSubcabecera
+{
+	width: 100%;
+	height: 66px;
+	display: block;
+	background-color:rgba(0,0,0,0.08);
+}
+.seccionSubmenu
+{
+	float: left;
+	height: 66px;
+	position: relative;
+	cursor: pointer;
+}
+.bordeIzquierdo
+{
+	position: absolute;
+	top: 0px;
+	left: -1px;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	display: block;
+	width: 1px;
+}
+.seccionSubmenu:hover
+{
+
+	background-color:rgba(0,0,0,0.16);
+}
+.tituloSubSeccion
+{
+	color: #ffffff; 
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 23px;
+    vertical-align: top;
+}
+.tituloSubSeccion img
+{
+	margin-left: 5px;
+	position: relative;
+	top: 1px;
+	left: 0px;
+
+}
+.tituloSubSeccion:hover
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color:rgba(0,0,0,0.08);
+}
+.seccionSubmenu.botonActivo:hover
+{
+	background: none;
+}
+#mostrarSubmenuDesplegado
+{
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 13px;
+	width: 18px;
+	height: 15px;
+	background: url('../images/layout/rayasMenuResponsivo.html') no-repeat center center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.seccionSubmenu
+{
+	display: block;
+}
+#usuario .numeroAlertas 
+{
+	display: none;
+}
+#menuUsuario .list-group-item.movil
+{
+	display: none;
+}
+/* truco para esconder barra scroll */
+#contenedorNotificaciones .cont
+{
+    overflow: auto;
+    padding-right: 17px; /* Increase this value for cross-browser compatibility */
+    width: 104%;
+    height: 100%;
+    box-sizing:content-box;
+
+}
+#contenedorNotificaciones
+{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+/* fin truco esconder barra scroll */
+#accordion
+{
+	width: 100%;
+}
+

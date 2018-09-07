@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'iconua';
+	src:url('https://cvnet.cpd.ua.es/guiaestilo/fonts/iconua.eot?-5c60pm');
+	src:url('https://cvnet.cpd.ua.es/guiaestilo/fonts/iconua.eot?#iefix-5c60pm') format('embedded-opentype'),
+		url('https://cvnet.cpd.ua.es/guiaestilo/fonts/iconua.woff?-5c60pm') format('woff'),
+		url('https://cvnet.cpd.ua.es/guiaestilo/fonts/iconua.ttf?-5c60pm') format('truetype'),
+		url('https://cvnet.cpd.ua.es/guiaestilo/fonts/iconua.svg?-5c60pm#iconua') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iconua-"], [class*=" iconua-"] {
+	font-family: 'iconua';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconua-encuestas:before {
+  content: "\e902";
+}
+
+.iconua-uacloud:before {
+	content: "\e601";
+}
+.iconua-mano-rectorado:before {
+	content: "\e600";
+}
+
+
+.iconua-app:before {
+	content: "\e603";
+}
+
+.iconua-pico-cabecera:before {
+	content: "\e602";
+}
+
+.iconua-sin-columnas:before {
+	content: "\e607";
+}
+.iconua-3-columnas:before {
+	content: "\e604";
+}
+.iconua-2-columnas:before {
+	content: "\e605";
+}
+.iconua-1-columna:before {
+	content: "\e606";
+}
+
+.iconua-2-columnas-on:before {
+	content: "\e608";
+}
+.iconua-1-columna-on:before {
+	content: "\e609";
+}
+.iconua-3-columnas-on:before {
+	content: "\e60a";
+}
+
+.iconua-movil:before {
+	content: "\e60b";
+}
+.iconua-comentarios:before {
+	content: "\e60c";
+}
+.iconua-uadrive:before {
+	content: "\e60d";
+}
+
+.iconua-servicios-externos:before {
+	content: "\e60e";
+}
+
+.iconua-smartuniversity:before {
+    content: "\e900";
+}
+
+.iconua-uacarteraproyectos:before {
+    content: "\e901";
+}
+

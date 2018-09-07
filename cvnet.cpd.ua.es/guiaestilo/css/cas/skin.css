@@ -1,0 +1,70 @@
+/* CSS Document */
+
+body {  
+	color:#000;
+	/*background-color: #f9f9f9;*/
+	background: #fff;
+}
+
+#cabeceraSuperior.azul
+{
+	background-color:#005380;
+}
+#cabeceraSuperior #cabeceraIzquierda h1
+{
+	color: #FFFFFF;
+}
+#cabeceraSuperior #cabeceraIzquierda h1 span
+{
+	color: #6db5dc;
+}
+#cabeceraSuperior #alertas
+{
+	background: #FFFFFF;
+}
+#cabeceraSuperior #alertas #numeroAlertas
+{
+	background: #f46767;
+	color: #FFFFFF;
+}
+#usuario, #ayudaCabecera
+{
+	color: #ffffff;
+}
+#usuario:hover
+{
+	background-color:rgba(0,0,0,0.16);
+	color: #ffffff;
+}
+#ayudaCabecera:hover
+{
+	color: #ffffff;
+	background-color:rgba(0,0,0,0.16);
+}
+.btn-group
+{
+	font-family: "Lato", sans-serif;
+}
+#ventanaWrapperApps .btn-group button
+{
+	background-color: none;
+    color: #949494;
+    font-size:12px;
+	font-family: "Lato", sans-serif;
+	border:1px solid #adadad;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.btn-default {
+    background-color: #EEEEEE;
+    border: none;
+    color: #000000;
+    border: 1px solid #adadad;
+}
+#ventanaWrapperApps .btn-default:hover,#ventanaWrapperApps  .btn-default:focus,#ventanaWrapperApps  .btn-default:active,#ventanaWrapperApps  .btn-default.active,#ventanaWrapperApps  .open > .dropdown-toggle.btn-default {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+    border: 1px solid #adadad;
+}
